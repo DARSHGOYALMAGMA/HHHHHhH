@@ -1,12 +1,12 @@
 module.exports = {
-  OWNER_IDS: [], // Bot owner ID's
-  PREFIX: "!", // Default prefix for the bot
-  SUPPORT_SERVER: "", // Your bot support server
+  OWNER_IDS: [919144027230699578], // Bot owner ID's
+  PREFIX: "dh!", // Default prefix for the bot
+  SUPPORT_SERVER: "https://discord.gg/BbRZR75vjX", // Your bot support server
   PRESENCE: {
     ENABLED: true, // Whether or not the bot should update its status
     STATUS: "online", // The bot's status [online, idle, dnd, invisible]
     TYPE: "WATCHING", // Status type for the bot [PLAYING | LISTENING | WATCHING | COMPETING]
-    MESSAGE: "{members} members in {servers} servers", // Your bot status message
+    MESSAGE: "{members} members | dh!help", // Your bot status message
   },
   DASHBOARD: {
     enabled: false, // enable or disable dashboard
@@ -29,7 +29,7 @@ module.exports = {
   },
   ECONOMY: {
     CURRENCY: "₪",
-    DAILY_COINS: 100, // coins to be received by daily command
+    DAILY_COINS: 500, // coins to be received by daily command
     MIN_BEG_AMOUNT: 100, // minimum coins to be received when beg command is used
     MAX_BEG_AMOUNT: 2500, // maximum coins to be received when beg command is used
   },
