@@ -9,7 +9,7 @@ module.exports = class BegCommand extends Command {
       name: "beg",
       description: "beg from someone",
       category: "ECONOMY",
-      cooldown: 21600,
+      cooldown: 60,
       botPermissions: ["EMBED_LINKS"],
       command: {
         enabled: true,
